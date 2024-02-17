@@ -16,7 +16,7 @@ import ToDo from "../../images/todo-list .jpeg";
 import Match from "../../images/Match-The-NO.jpeg";
 import Temperature from "../../images/Temp.jpeg";
 const Projects = ({ openModal, setOpenModal }) => {
-  const [toggle, setToggle] = useState("all");
+  // const [toggle, setToggle] = useState("all");
 
   // Dummy project data
   const Projects = [
@@ -62,9 +62,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       topics: ["React", "Web Development"],
       title: "Text To Emojis",
       date: "2024-02-12",
-      description:
-        "
-        A basic counter implemented using functions for incrementing and decrementing. Users can increase or decrease the counter's value, and the displayed count dynamically updates accordingly. This simple project demonstrates fundamental function-driven interactions for modifying and displaying numerical values. ",
+      description:" A basic counter implemented using functions for incrementing and decrementing. Users can increase or decrease the counter's value, and the displayed count dynamically updates accordingly. This simple project demonstrates fundamental function-driven interactions for modifying and displaying numerical values."
     },
     {
       img: Temperature,
