@@ -45,16 +45,16 @@ const Projects = ({ openModal, setOpenModal }) => {
       title: "To Do List",
       date: "2024-02-12",
       description:
-        "Text to Emoji Converter: A simple tool that transforms plain text into expressive emojis, adding a touch of fun and creativity to your messages. ",
+        "A to-do list is a task management tool where users can create, organize, and prioritize tasks. It helps individuals stay organized and focused by providing a visual representation of pending and completed tasks. Utilizing checkboxes or other indicators, users can easily track their progress and manage daily responsibilities. ",
     },
     {
       img: Match,
       live: "https://match-the-number.vercel.app/",
       topics: ["React", "Web Development"],
       title: "Match The Number",
-      date: "2024-02-12",
+      date: "2023-12-02",
       description:
-        "Text to Emoji Converter: A simple tool that transforms plain text into expressive emojis, adding a touch of fun and creativity to your messages. ",
+        "A clicking game where matching numbers increment the score by 10 with each successful match. The goal is to accumulate points by quickly identifying and clicking on matching numbers displayed on the screen. The increasing score adds a competitive and rewarding element to the game ",
     },
     {
       img: Current,
@@ -63,7 +63,8 @@ const Projects = ({ openModal, setOpenModal }) => {
       title: "Text To Emojis",
       date: "2024-02-12",
       description:
-        "Text to Emoji Converter: A simple tool that transforms plain text into expressive emojis, adding a touch of fun and creativity to your messages. ",
+        "
+        A basic counter implemented using functions for incrementing and decrementing. Users can increase or decrease the counter's value, and the displayed count dynamically updates accordingly. This simple project demonstrates fundamental function-driven interactions for modifying and displaying numerical values. ",
     },
     {
       img: Temperature,
@@ -72,7 +73,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       title: "Text To Emojis",
       date: "2024-02-12",
       description:
-        "  A thermochromic background project utilizes temperature-sensitive materials to create an interactive display. As the temperature fluctuates, the background color or pattern dynamically changes, offering a visually engaging and responsive experience. ",
+        " A dynamic background project where images change based on temperature fluctuations. As the temperature increases, the background seamlessly transitions to different visuals, creating an aesthetically responsive experience.",
     },
   ];
 
