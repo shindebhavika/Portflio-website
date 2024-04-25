@@ -1,3 +1,4 @@
+import { Margin } from '@mui/icons-material'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -134,7 +135,7 @@ const StyledButton = styled.button`
     background-color: #45a049; // Darker shade on hover
   }
 `
-const ProjectCards = ({ img, topics, title, date, description, project ,live}) => {
+const ProjectCards = ({ img, topics, title, date, description, project ,live,github}) => {
     return (
       <Card>
        <a href={live}> <Image src={img} /></a>
@@ -151,7 +152,11 @@ const ProjectCards = ({ img, topics, title, date, description, project ,live}) =
         <Members>
         <StyledButton as="a" href={live} target="" rel="noopener noreferrer">
   Live
-</StyledButton>;
+</StyledButton>
+<span style={{margin:"60px"}}></span>
+<StyledButton as="a" href={github} target="" rel="noopener noreferrer">
+ GitHub
+</StyledButton>
         </Members>
         
       </Card>
