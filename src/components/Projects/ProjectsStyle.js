@@ -10,6 +10,7 @@ import Temperature from "../../images/Temp.jpeg";
 import Dise from "../../images/Dise.png"
 import Quiz from "../../images/22.04.2024_19.45.27_REC.png"
 import weather from "../../images/weather.png"
+import page from "../../images/08.06.2024_15.06.55_REC.png"
 export const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
     display: flex;
@@ -137,6 +138,47 @@ export const ProjectsData = [
         github: "https://github.com/shindebhavika/app-weather"
     },
     {
+        img:"https://cdn.ndtv.com/tech/google_translate_icon_small.jpg",
+        live: "https://translator-brown-ten.vercel.app/",
+        topics: [ "React", "Web Development" ],
+        title: "Translator",
+        date: "2024-04-12",
+        description:
+            "Translator is a web application that allows users to convert typed text from one language to another in real-time. Powered by React and leveraging translation APIs, it provides a convenient way for users to translate text and communicate across language barriers effortlessly.",
+        github: "https://github.com/shindebhavika/TRANSLATOR.git"
+    },
+    {
+        img:"https://www.popsci.com/wp-content/uploads/2022/01/18/hands-holding-phone-with-photos-on-screen.jpg?w=600",
+        live: "https://pic-portal-neon.vercel.app/",
+        topics: [ "React", "Web Development" ],
+        title: "PicPortal",
+        date: "2024-05-12",
+        description:
+            "PicPortal is a web application that empowers users to search for images, view details, and download them. Built with React, it provides a seamless experience for users to explore a vast collection of pictures and find the perfect images for their needs.",
+        github: "https://github.com/shindebhavika/PicPortal.git"
+    },
+    {
+        img:"https://retail.sahaj.co.in/documents/101808871/102835059/tour+and+travell+WEL.png/301fb991-0ed7-ff3a-1240-82a8da9c0d7b?t=1684221889889",
+        live: "https://sahaj-travelling-d6vq.vercel.app/",
+        topics: [ "React", "Web Development" ],
+        title: "sahaj travelling",
+        date: "2024-05-12",
+        description:
+            "Landing page for travel agency",
+        github: "https://github.com/shindebhavika/sahajTravelling.git"
+    },
+    
+    {
+        img: page,
+        live: "https://batch-assignment-rosy.vercel.app/",
+        topics: [ "HTML", "CSS", "Js", "Web Development" ],
+        title: "Landing page with theme toggle",
+        date: "2024-02-12",
+        description:
+            "Landing page ",
+        github: "https://github.com/shindebhavika/batch-assignment.git"
+    },
+    {
         img: Text_To_Emojis,
         live: "https://text-to-emojis-project.vercel.app/",
         topics: [ "HTML", "CSS", "Js", "Web Development" ],
@@ -147,7 +189,7 @@ export const ProjectsData = [
         github: "https://github.com/shindebhavika/shindebhavika-Text_To_Emojis_project/tree/master"
     },
     {
-        img: ToDo,
+        img: "https://imageio.forbes.com/specials-images/dam/imageserve/1092571024/960x0.jpg?height=474&width=711&fit=bounds",
         live: "https://to-do-list-seven-mocha.vercel.app/",
         topics: [ "HTML", "CSS", "Js", "Web Development" ],
         title: "To Do List",
@@ -167,7 +209,7 @@ export const ProjectsData = [
         github: "https://github.com/shindebhavika/match--the-number"
     },
     {
-        img: Calculator,
+        img:"https://cdn.arstechnica.net/wp-content/uploads/2024/04/calculator-icon-800x450.jpg",
         live: "https://calculator-react-umber-omega.vercel.app/",
         topics: [ "React", "Web Development" ],
         title: "Calculator",
@@ -185,15 +227,6 @@ export const ProjectsData = [
         description: " A basic counter implemented using functions for incrementing and decrementing. Users can increase or decrease the counter's value, and the displayed count dynamically updates accordingly. This simple project demonstrates fundamental function-driven interactions for modifying and displaying numerical values.",
         github: "https://github.com/shindebhavika/Current-Counter/tree/master"
     },
-    {
-        img: Temperature,
-        live: "https://temperature-control-eight.vercel.app/",
-        topics: [ "React", "Web Development" ],
-        title: "temperature",
-        date: "2024-02-12",
-        description:
-            " A dynamic background project where images change based on temperature fluctuations. As the temperature increases, the background seamlessly transitions to different visuals, creating an aesthetically responsive experience.",
-        github: "https://github.com/shindebhavika/-temperature-control/tree/master"
-    },
+   
   
 ];
