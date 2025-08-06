@@ -79,7 +79,7 @@ const Index = () => {
         {/* <Desc>
           My work experience as a software engineer and working on different companies and projects.
         </Desc> */}
-        {/* <TimelineSection>
+        <TimelineSection>
           <Timeline>
             {experiences.map((experience, index) => (
               <TimelineItem key={index}>
@@ -93,8 +93,8 @@ const Index = () => {
               </TimelineItem>
             ))}
           </Timeline>
-        </TimelineSection> */}
-        <h1>Looking for opportunity</h1>
+        </TimelineSection>
+        {/* <h1>Looking for opportunity</h1> */}
 
       </Wrapper>
     </Container>
