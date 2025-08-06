@@ -13,13 +13,22 @@ import weather from "../../images/weather.png"
 
 [
 
-  {
+//   {
+//       img: Dise,
+//       live: "https://dise-game-fawn.vercel.app/",
+//       topics: [ "React", "Web Development" ],
+//       title: "Dise Game",
+//       date: "2024-02-18",
+//       description: "Choose a number, roll the dice, and if your chosen number doesn't match the dice result, your score increases. Test your luck in this exciting dice game where making the right prediction adds to the challenge and fun.",
+//       github: "https://github.com/shindebhavika/Dise_Game"
+//   },
+    {
       img: Dise,
-      live: "https://dise-game-fawn.vercel.app/",
+      live: "https://softsell-henna-ten.vercel.app/",
       topics: [ "React", "Web Development" ],
-      title: "Dise Game",
+      title: "Soft-Sell",
       date: "2024-02-18",
-      description: "Choose a number, roll the dice, and if your chosen number doesn't match the dice result, your score increases. Test your luck in this exciting dice game where making the right prediction adds to the challenge and fun.",
+      description: "SoftSell helps you easily sell your software licenses and monetize your unused assets — fast, secure, and hassle-free.",
       github: "https://github.com/shindebhavika/Dise_Game"
   },
   {
